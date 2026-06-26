@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+----------------------------------------------------
+# 데이터 파일 (크기 큼, 소스 제어 불필요)
+*.csv
+
+# 생성된 이미지/차트
+*.png
+*.jpg
+*.pdf
+slides_assets/
+slide-*.jpg
+
+# 파이썬
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+env/
+
+# Node/npm
+node_modules/
+package-lock.json
+npm-debug.log
+
+# 시스템
+.DS_Store
+.vscode/
+.idea/
+
+# (선택) 최종 산출물 — 올리고 싶으면 이 줄들 제외
+*.pptx
+popup_recommendation_executed.ipynb
